@@ -1,16 +1,16 @@
-import streamlit sl
-import pandas pd
+import streamlit
+import pandas
 
-sl.title('My parents healthy diner')
+streamlit.title('My parents healthy diner')
 
-sl.header('Breakfast menu')
+streamlit.header('Breakfast menu')
 
-sl.text('🥣 Omega 3 & bluberry oatmeal')
-sl.text('🥗 kale, spinach & rocket smoothie')
-sl.text('🐔 Hard boiled free range egg')
-sl.text('🥑🍞 Avocado toast')
+streamlit.text('🥣 Omega 3 & bluberry oatmeal')
+streamlit.text('🥗 kale, spinach & rocket smoothie')
+streamlit.text('🐔 Hard boiled free range egg')
+streamlit.text('🥑🍞 Avocado toast')
 
-sl.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
-my_fruit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
-sl.dataframe(my_fruit_list)
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
